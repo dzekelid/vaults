@@ -13,9 +13,9 @@ tags:
 - Recovery
 - Microsoft
 - Backup
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/vaults/master/_listings/azure-recovery-services/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Recovery Service API
@@ -27,7 +27,7 @@ apis:
   tags: Vaults
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-usages-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-providers-microsoft-recoveryservices-vaults-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/site-recovery/
