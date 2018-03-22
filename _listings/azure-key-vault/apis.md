@@ -19,9 +19,9 @@ tags:
 - Microsoft
 - Management
 - Authentication
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/vaults/master/_listings/azure-key-vault/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-key-vault/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Key Vault API
@@ -33,7 +33,7 @@ apis:
   tags: Vaults
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/vaults/master/_listings/azure-key-vault/subscriptions-subscriptionid-resources-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-key-vault/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-keyvault-vaults-vaultname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/key-vault/
