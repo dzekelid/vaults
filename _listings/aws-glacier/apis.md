@@ -13,21 +13,11 @@ tags:
 - Storage
 - Stack Network
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/aws-glacier/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Amazon Glacier API
-  description: Amazon Glacier is a secure, durable, and extremely low-cost cloud storage
-    service for data archiving and long-term backup
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png
-  humanURL: ""
-  baseURL: :///
-  tags: Vaults
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/aws-glacier/accountid-vaults-get.md
+apis: []
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
