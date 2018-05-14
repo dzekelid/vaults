@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: RecoveryServicesClient
+  title: Azure Recovery Service API Vaults Update
   version: 1.0.0
+  description: Updates the vault.
 host: management.azure.com
 basePath: /
 schemes:
