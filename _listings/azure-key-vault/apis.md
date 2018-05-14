@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-key-vault/subscriptions-subscriptionid-resources-get.md
-- name: Azure Key Vault API Vaults Create Or Update
-  description: Create or update a key vault in the specified subscription.
+- name: Azure Key Vault API Vaults Delete
+  description: Deletes the specified Azure key vault.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
   humanURL: https://azure.microsoft.com/en-us/services/key-vault/
   baseURL: http:://management.azure.com//
   tags: Vaults
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-key-vault/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-keyvault-vaults-vaultname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-key-vault/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-keyvault-vaults-vaultname-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-key-vault/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-keyvault-vaults-vaultname-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/key-vault/
