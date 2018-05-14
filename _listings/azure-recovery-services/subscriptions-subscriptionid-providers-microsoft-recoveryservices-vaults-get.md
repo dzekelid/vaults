@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: RecoveryServicesClient
+  title: Azure Recovery Service API Vaults List By Subscription Id
   version: 1.0.0
+  description: Fetches all the resources of the specified type in the subscription.
 host: management.azure.com
 basePath: /
 schemes:
