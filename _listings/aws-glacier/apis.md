@@ -28,24 +28,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/aws-glacier/accountid-vaults-get.md
-- name: Amazon Glacier API Describe  Vault
-  description: "DescriptionThis operation returns information about a vault, including
-    the vault Amazon Resource Name\n\t\t\t(ARN), the date the vault was created, the
-    number of archives contained within the\n\t\t\tvault, and the total size of all
-    the archives in the vault. The number of archives and\n\t\t\ttheir total size
-    are as of the last vault inventory Amazon Glacier generated (see Working with
-    Vaults in Amazon Glacier). Amazon Glacier\n\t\t\tgenerates vault inventories approximately
-    daily. This means that if you add or remove an\n\t\t\tarchive from a vault, and
-    then immediately send a Describe Vault request, the response\n\t\t\tmight not
-    reflect the changes.  RequestsTo get information about a vault, send a GET request
-    to the URI of the specific\n\t\t\tvault resource."
+- name: Amazon Glacier API List  Vaults
+  description: "DescriptionThis operation lists all vaults owned by the calling user&#8217;s
+    account. The list returned in\n\t\t\tthe response is ASCII-sorted by vault name.
+    By default, this operation returns up to 1,000 items per request. If there are
+    more vaults\n\t\t\tto list, the marker field in the response body contains the
+    vault Amazon\n\t\t\tResource Name (ARN) at which to continue the list with a new
+    List Vaults request;\n\t\t\totherwise, the marker field is null. In your next
+    List Vaults\n\t\t\trequest you set the marker parameter to the value Amazon Glacier
+    returned in the\n\t\t\tresponses to your previous List Vaults request. You can
+    also limit the number of vaults\n\t\t\treturned in the response by specifying
+    the limit parameter in the request. RequestsTo get a list of vaults, you send
+    a GET request to the\n\t\t\t\tvaults resource."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png
   humanURL: https://aws.amazon.com/glacier/
   baseURL: http:://{host}//
   tags: Vaults
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/aws-glacier/accountid-vaults-vaultname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/aws-glacier/accountid-vaults-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
