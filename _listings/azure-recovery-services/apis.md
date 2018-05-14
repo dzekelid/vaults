@@ -28,17 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-usages-get.md
-- name: Azure Recovery Service API Vaults Get
-  description: Get the Vault details.
+- name: Azure Recovery Service API Vaults Create Or Update
+  description: Creates or updates a Recovery Services vault.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-site-recovery.png
   humanURL: https://azure.microsoft.com/en-us/services/site-recovery/
   baseURL: http:://management.azure.com//
   tags: Vaults
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/site-recovery/
