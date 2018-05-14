@@ -1,8 +1,19 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API List  Vaults
   version: 1.0.0
+  description: "DescriptionThis operation lists all vaults owned by the calling user&#8217;s
+    account. The list returned in\n\t\t\tthe response is ASCII-sorted by vault name.
+    By default, this operation returns up to 1,000 items per request. If there are
+    more vaults\n\t\t\tto list, the marker field in the response body contains the
+    vault Amazon\n\t\t\tResource Name (ARN) at which to continue the list with a new
+    List Vaults request;\n\t\t\totherwise, the marker field is null. In your next
+    List Vaults\n\t\t\trequest you set the marker parameter to the value Amazon Glacier
+    returned in the\n\t\t\tresponses to your previous List Vaults request. You can
+    also limit the number of vaults\n\t\t\treturned in the response by specifying
+    the limit parameter in the request. RequestsTo get a list of vaults, you send
+    a GET request to the\n\t\t\t\tvaults resource."
 schemes:
 - http
 produces:
