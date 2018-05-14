@@ -28,7 +28,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-recoveryservices-vaults-vaultname-usages-get.md
+- name: Azure Recovery Service API Vaults List By Subscription Id
+  description: Fetches all the resources of the specified type in the subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-site-recovery.png
+  humanURL: https://azure.microsoft.com/en-us/services/site-recovery/
+  baseURL: http:://management.azure.com//
+  tags: Vaults
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-providers-microsoft-recoveryservices-vaults-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vaults/master/_listings/azure-recovery-services/subscriptions-subscriptionid-providers-microsoft-recoveryservices-vaults-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/site-recovery/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/site-recovery/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/site-recovery/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/site-recovery/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/site-recovery/
 - type: x-pricing
