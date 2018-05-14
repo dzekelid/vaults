@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: RecoveryServicesClient
+  title: Azure Recovery Service API Usages List By Vaults
   version: 1.0.0
+  description: Fetches the usages of the vault.
 host: management.azure.com
 basePath: /
 schemes:
