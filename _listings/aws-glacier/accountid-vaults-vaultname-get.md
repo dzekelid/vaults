@@ -1,8 +1,18 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API Describe  Vault
   version: 1.0.0
+  description: "DescriptionThis operation returns information about a vault, including
+    the vault Amazon Resource Name\n\t\t\t(ARN), the date the vault was created, the
+    number of archives contained within the\n\t\t\tvault, and the total size of all
+    the archives in the vault. The number of archives and\n\t\t\ttheir total size
+    are as of the last vault inventory Amazon Glacier generated (see Working with
+    Vaults in Amazon Glacier). Amazon Glacier\n\t\t\tgenerates vault inventories approximately
+    daily. This means that if you add or remove an\n\t\t\tarchive from a vault, and
+    then immediately send a Describe Vault request, the response\n\t\t\tmight not
+    reflect the changes.  RequestsTo get information about a vault, send a GET request
+    to the URI of the specific\n\t\t\tvault resource."
 schemes:
 - http
 produces:
