@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: KeyVaultManagementClient
-  description: The Azure management API provides a RESTful set of web services that
-    interact with Azure Key Vault.
+  title: Azure Key Vault API Vaults List By Resource Group
+  description: The List operation gets information about the vaults associated with
+    the subscription and within the specified resource group.
   version: 1.0.0
 host: management.azure.com
 basePath: /
