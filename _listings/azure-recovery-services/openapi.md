@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Recovery Services
 x-complete: 1
@@ -14,34 +13,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /subscriptions/{subscriptionId}/providers/Microsoft.RecoveryServices/vaults:
-    get:
-      summary: Vaults List By Subscription Id
-      description: Fetches all the resources of the specified type in the subscription.
-      operationId: Vaults_ListBySubscriptionId
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-recoveryservicesvaults-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Vaults Subscription
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults:
-    get:
-      summary: Vaults List By Resource Group
-      description: Retrieve a list of Vaults.
-      operationId: Vaults_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-recoveryservicesvaults-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Vaults Resource Group
   /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}:
     get:
       summary: Vaults Get
@@ -105,18 +76,3 @@ paths:
           description: OK
       tags:
       - Vaults
-  ? /Subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/usages
-  : get:
-      summary: Usages List By Vaults
-      description: Fetches the usages of the vault.
-      operationId: Usages_ListByVaults
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-recoveryservicesvaultsvaultnameusages-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Usages Vaults
----

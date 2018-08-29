@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Key Vault
 x-complete: 1
@@ -78,27 +77,6 @@ paths:
           description: OK
       tags:
       - Vaults
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults:
-    get:
-      summary: Vaults List By Resource Group
-      description: The List operation gets information about the vaults associated
-        with the subscription and within the specified resource group.
-      operationId: Vaults_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-keyvaultvaults-get
-      parameters:
-      - in: query
-        name: $top
-        description: Maximum number of results to return
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the Resource Group to which the vault belongs
-      responses:
-        200:
-          description: OK
-      tags:
-      - Vaults Resource Group
   /subscriptions/{subscriptionId}/resources:
     get:
       summary: Vaults List
@@ -123,4 +101,3 @@ paths:
           description: OK
       tags:
       - Vaults
----
